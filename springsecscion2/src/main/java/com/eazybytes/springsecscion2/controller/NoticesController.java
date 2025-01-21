@@ -1,4 +1,4 @@
-package com.eazybytes.springsecscion1.controller;
+package com.eazybytes.springsecscion2.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class NoticesController {
 
-    @GetMapping("/welcome")
-    public String sayHello() {
-        return "alo alo 123";
+    @GetMapping("/notices")
+    public String getNotices() {
+        return "Here are the notices details form the DB";
     }
 }
